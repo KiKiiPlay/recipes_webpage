@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+        .image_center {
+            display: flex; 
+            justify-content: center;
+            padding: 20px 0 20px;
+        }
+
+        #part_of_header{
+            text-align: center;
+            background-color: #fdfbf1;
+            border-top: 1px solid #ffd978;
+            padding: 30px 0 30px;
+            color: #074b4c;
+            font-size: 25px;
+        }
+
+        #part_of_header span{
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        .main_body{
+            margin: 0 0 0 650px;
+            width: 50%;
+        }
+
+        #main_text{
+            color: #333333;
+            max-width: 600px;
+            text-align: center;
+        }
+
+        #image{
+            padding-right: 800px;
+        }
+
+        #describtion{
+            max-width: 700px;
+            text-align: left;
+        }
+
+        #grey{
+            color:#9f9f9f;
+            text-align: center;
+        }
+
+        #under_img_text{
+            border-left: 3px solid #ffd978;
+            padding: 0 0 0 10px;
+        }
+
+        #under_img_text span{
+            color: #a6491f;
+        }
+
+        #under_img_link{
+            color: #206f71;
+        }
+
+        .underline{
+            font-size: 30px;
+            border-bottom: 1px solid lightblue;
+            padding: 0 0 20px;
+        }
+
+        .list_names{
+            font-weight: bold;
+            font-size: large;
+        }
+
+        .list_class li{
+            line-height: 35px;
+        }
+
+        .bottom_list li span{
+            font-weight: bold;
+        }
+
+        #bottom_link{
+            color: #206f71;
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="image_center">
+      <img src="logo.png" alt="Logo" />
+    </div>
+    <p id="part_of_header">Part of <span>a simply fabulous thanksgiving</span></p>
+
+    <div class="main_body">
+
+        <div class="upper_body">
+            <h1 id="main_text">Focaccia with Caramelized Onions, Cranberries, and Brie</h1>
+    
+            <p id="describtion">Wow your taste buds with this festive focaccia appetizer topped with sweet caramelized onions, tart
+                cranberries, and creamy brie. It will become your new favorite holiday starter!</p>
+    
+            <img id="image" src="focacca.png" alt="focacca">
+    
+            <p id="grey">Image: Sally Vegas</p>
+            <p id="under_img_text"><span>FEATURED IN: </span><br> <a href="https://google.com" id="under_img_link"> Fresh Cranberry Recipes That Go Beyond Sauce</a></p>
+        </div>
+    
+        <div class="middle_body">
+            <p class="underline">Ingredients</p>
+    
+            <p class="list_names">For the focaccia:</p>
+            <ul class="list_class">
+                <li>4 cups (500g) all-purpose flour</li>
+                <li>11/2 teaspoons instant yeast</li>
+                <li>11/2 teaspoons salt</li>
+                <li>13/4 cups (350g) lukewarm water</li>
+                <li>1/4 cup extra virgin olive oil, plus more for the pan</li>
+            </ul>
+    
+            <p class="list_names">For the topping:</p>
+            <ul class="list_class">
+                <li>3 medium yellow onions, thinly sliced</li>
+                <li>1 tablespoon balsamic vinegar</li>
+                <li>1-2 tablespoons olive oil, for brushing on top</li>
+                <li>10 ounces brie, cut into cubes (scrape rind off with a paring knife if desired, though it’s not
+                    necessary)</li>
+                <li>11/2 cups fresh or frozen cranberries</li>
+            </ul>
+        </div>
+    
+        <div class="lower_body">
+            <p class="underline">Method</p>
+            <ol class="bottom_list">
+                <li><p><span>Make the focaccia dough</span>
+                    <p>In a medium-sized mixing bowl, or in a stand mixer with a paddle attachment, mix together all
+                    the dough ingredients until the flour is fully absorbed. You don't need to actually knead the
+                    dough, though I sometimes knead it a few times in the bowl when mixing by hand to incorporate
+                    the last of the flour...</p>
+                </p></li>
+            </ol> 
+    
+            <p>Read more on <a href="https://google.com" id="bottom_link">Simply recipes</a></p>
+        </div>
+
+    </div>
+
+   
+  </body>
+</html>
